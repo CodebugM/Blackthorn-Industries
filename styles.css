@@ -1,3 +1,28 @@
 .navbar {
   font-family: 'Oswald';
 }
+
+.background-image {
+  background: url("https://storage.needpix.com/rsynced_images/radial-metal-background.jpg");
+
+  height: 600px;
+  width: 100%;
+
+  display: table;
+
+}
+
+/* floater div required to vertically align h1 */
+.floater {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.background-image h1 {
+  color: #fff;
+  font-family: 'Oswald';
+  text-align: center;
+
+
+
+}
