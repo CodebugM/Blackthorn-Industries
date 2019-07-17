@@ -8,6 +8,7 @@
   height: 600px;
   width: 100%;
 
+  /* display property required for aligning h1 vertically in the middle */
   display: table;
 
 }
@@ -23,6 +24,30 @@
   font-family: 'Oswald';
   text-align: center;
 
+}
+
+.background-image p {
+  color: #fff;
+  font-family: 'Roboto Mono';
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 15px;
+}
 
 
+/* card row styles */
+
+body {
+  background-color: #414141;
+}
+
+.card-row {
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.card {
+  margin-top: 2%;
+  margin: 5%;
 }
