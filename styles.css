@@ -10,7 +10,6 @@
 
   /* display property required for aligning h1 vertically in the middle */
   display: table;
-
 }
 
 /* floater div required to vertically align h1 */
@@ -50,4 +49,33 @@ body {
 .card {
   margin-top: 2%;
   margin: 5%;
+}
+
+/* ** About page ** */
+
+.about-text {
+  height: 200px;
+}
+
+.about-text h1 {
+
+}
+
+.about-text p {
+  
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #414141;
+  color: #fff;
+  text-align: center;
+  font-family: 'Oswald';
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
